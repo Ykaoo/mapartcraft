@@ -6,12 +6,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
 @font-face {
-  font-family: "kenpixel_mini_square";
-  src: url("./kenpixel_mini_square.woff") format("woff");
+  font-family: "Roboto-Medium-webfont";
+  src: url("./Roboto-Medium-webfont.woff") format("woff");
 }
 
 html {
-  background-color: #333;
+  background-color: #262823;
 }
 
 h1,

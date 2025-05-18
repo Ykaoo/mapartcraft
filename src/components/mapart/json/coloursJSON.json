@@ -160,7 +160,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 7
+                "presetIndex": 2
             },
             "3": {
                 "displayName": "Birch Log (vertical)",
@@ -188,7 +188,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": true,
-                "presetIndex": 2
+                "presetIndex": 3
             },
             "4": {
                 "displayName": "Birch Planks",
@@ -213,7 +213,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": true,
-                "presetIndex": 3
+                "presetIndex": 4
             },
             "5": {
                 "displayName": "Birch Slab",
@@ -238,7 +238,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": true,
-                "presetIndex": 4
+                "presetIndex": 5
             },
             "6": {
                 "displayName": "Glowstone",
@@ -258,7 +258,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 5
+                "presetIndex": 6
             },
             "7": {
                 "displayName": "End Stone",
@@ -278,7 +278,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 6
+                "presetIndex": 7
             },
             "8": {
                 "displayName": "End Stone Bricks",
@@ -326,7 +326,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "bone_block",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "x"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -362,6 +364,7 @@
             },
             "12": {
                 "displayName": "Ochre Froglight",
+                "NBTName": "ochre_froglight",
                 "validVersions": {
                     "1.19": {
                         "NBTName": "ochre_froglight",
@@ -429,7 +432,14 @@
                 "validVersions": {
                     "1.13.2": {
                         "NBTName": "mushroom_stem",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "north": "false",
+                            "south": "false",
+                            "east": "false",
+                            "west": "false",
+                            "up": "true",
+                            "down": "true"
+                        }
                     },
                     "1.14.4": "&1.13.2",
                     "1.15.2": "&1.13.2",
@@ -693,10 +703,10 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 3
+                "presetIndex": 2
             },
             "3": {
-                "displayName": "Weighted Pressure Plate (Heavy)",
+                "displayName": "Heavy Weighted Pressure Plate",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "heavy_weighted_pressure_plate",
@@ -713,7 +723,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 2
+                "presetIndex": 3
             },
             "4": {
                 "displayName": "Brewing Stand",
@@ -734,6 +744,20 @@
                 "supportBlockMandatory": true,
                 "flammable": false,
                 "presetIndex": 4
+            },
+            "5": {
+                "displayName": "Pale Oak Leaves",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "pale_oak_leaves",
+                        "NBTArgs": {
+                            "persistent": "true"
+                        }
+                    }
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 5
             }
         },
         "mapdatId": 6,
@@ -764,7 +788,7 @@
         },
         "blocks": {
             "0": {
-                "displayName": "Leaves (Oak)",
+                "displayName": "Oak Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves",
@@ -793,7 +817,7 @@
                 "presetIndex": 0
             },
             "1": {
-                "displayName": "Leaves (Spruce)",
+                "displayName": "Spruce Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves",
@@ -822,7 +846,7 @@
                 "presetIndex": 1
             },
             "2": {
-                "displayName": "Leaves (Birch)",
+                "displayName": "Birch Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves",
@@ -851,7 +875,7 @@
                 "presetIndex": 2
             },
             "3": {
-                "displayName": "Leaves (Jungle)",
+                "displayName": "Jungle Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves",
@@ -880,7 +904,7 @@
                 "presetIndex": 3
             },
             "4": {
-                "displayName": "Leaves (Acacia)",
+                "displayName": "Acacia Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves2",
@@ -909,7 +933,7 @@
                 "presetIndex": 4
             },
             "5": {
-                "displayName": "Leaves (Dark Oak)",
+                "displayName": "Dark Oak Leaves",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "leaves2",
@@ -938,7 +962,7 @@
                 "presetIndex": 5
             },
             "6": {
-                "displayName": "Leaves (Azalea)",
+                "displayName": "Azalea Leaves",
                 "validVersions": {
                     "1.17.1": {
                         "NBTName": "azalea_leaves",
@@ -967,6 +991,23 @@
                 "supportBlockMandatory": false,
                 "flammable": true,
                 "presetIndex": 7
+            },
+            "8": {
+                "displayName": "Mangrove Leaves",
+                "validVersions": {
+                    "1.17.1": {
+                        "NBTName": "mangrove_leaves",
+                        "NBTArgs": {
+                            "persistent": "true"
+                        }
+                    },
+                    "1.18.2": "&1.17.1",
+                    "1.19": "&1.17.1",
+                    "1.20": "&1.17.1"
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 8
             }
         },
         "mapdatId": 7,
@@ -1180,7 +1221,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 8
+                "presetIndex": 5
             },
             "6": {
                 "displayName": "Jukebox",
@@ -1200,7 +1241,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 5
+                "presetIndex": 6
             },
             "7": {
                 "displayName": "Granite",
@@ -1225,7 +1266,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 6
+                "presetIndex": 7
             },
             "8": {
                 "displayName": "Granite Slab",
@@ -1243,7 +1284,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 7
+                "presetIndex": 8
             },
             "9": {
                 "displayName": "Jungle Pressure Plate",
@@ -1276,6 +1317,25 @@
                 "supportBlockMandatory": false,
                 "flammable": false,
                 "presetIndex": 10
+            },
+            "11": {
+                "displayName": "Brown Mushroom Block",
+                "validVersions": {
+                    "1.19": {
+                        "NBTName": "brown_mushroom_block",
+                        "NBTArgs": {
+                            "north": "false",
+                            "south": "false",
+                            "east": "false",
+                            "west": "false",
+                            "up": "true",
+                            "down": "true"}
+                    },
+                    "1.20": "&1.19"
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 11
             }
         },
         "mapdatId": 10,
@@ -1348,7 +1408,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 3
+                "presetIndex": 1
             },
             "2": {
                 "displayName": "Mossy Cobblestone",
@@ -1368,7 +1428,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 8
+                "presetIndex": 2
             },
             "3": {
                 "displayName": "Mossy Cobblestone Slab",
@@ -1386,7 +1446,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 9
+                "presetIndex": 3
             },
             "4": {
                 "displayName": "Stone",
@@ -1406,7 +1466,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 1
+                "presetIndex": 4
             },
             "5": {
                 "displayName": "Stone Slab",
@@ -1424,7 +1484,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 2
+                "presetIndex": 5
             },
             "6": {
                 "displayName": "Smooth Stone Slab",
@@ -1452,7 +1512,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 10
+                "presetIndex": 6
             },
             "7": {
                 "displayName": "Stone Bricks",
@@ -1477,7 +1537,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 11
+                "presetIndex": 7
             },
             "8": {
                 "displayName": "Stone Brick Slab",
@@ -1502,7 +1562,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 12
+                "presetIndex": 8
             },
             "9": {
                 "displayName": "Andesite",
@@ -1527,7 +1587,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 4
+                "presetIndex": 9
             },
             "10": {
                 "displayName": "Andesite Slab",
@@ -1545,7 +1605,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 13
+                "presetIndex": 10
             },
             "11": {
                 "displayName": "Bedrock",
@@ -1565,7 +1625,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 5
+                "presetIndex": 11
             },
             "12": {
                 "displayName": "Acacia Log (horizontal)",
@@ -1593,7 +1653,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": true,
-                "presetIndex": 6
+                "presetIndex": 12
             },
             "13": {
                 "displayName": "Gravel",
@@ -1613,7 +1673,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 7
+                "presetIndex": 13
             },
             "14": {
                 "displayName": "Stone Pressure Plate",
@@ -1682,7 +1742,26 @@
                 "supportBlockMandatory": true,
                 "flammable": false,
                 "presetIndex": 0
+            },
+            "1": {
+                "displayName": "Waterlogged Mangrove Leaves",
+                "validVersions": {
+                    "1.17.1": {
+                        "NBTName": "mangrove_leaves",
+                        "NBTArgs": {
+                            "persistent": "true",
+                            "waterlogged": "true"
+                        }
+                    },
+                    "1.18.2": "&1.17.1",
+                    "1.19": "&1.17.1",
+                    "1.20": "&1.17.1"
+                },
+                "supportBlockMandatory": false,
+                "flammable": false,
+                "presetIndex": 1
             }
+            
         },
         "mapdatId": 12,
         "colourName": "Water"
@@ -1831,6 +1910,25 @@
                 "supportBlockMandatory": true,
                 "flammable": false,
                 "presetIndex": 4
+            },
+            "5": {
+                "displayName": "Bookshelf",
+                "validVersions": {
+                    "1.13.2": {
+                        "NBTName": "bookshelf",
+                        "NBTArgs": {}
+                    },
+                    "1.14.4": "&1.13.2",
+                    "1.15.2": "&1.13.2",
+                    "1.16.5": "&1.13.2",
+                    "1.17.1": "&1.13.2",
+                    "1.18.2": "&1.13.2",
+                    "1.19": "&1.13.2",
+                    "1.20": "&1.13.2"
+                },
+                "supportBlockMandatory": true,
+                "flammable": false,
+                "presetIndex": 5
             }
         },
         "mapdatId": 13,
@@ -1929,7 +2027,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 5
+                "presetIndex": 2
             },
             "3": {
                 "displayName": "Quartz Block",
@@ -1949,7 +2047,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 2
+                "presetIndex": 3
             },
             "4": {
                 "displayName": "Quartz Slab",
@@ -1974,9 +2072,9 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 3
+                "presetIndex": 4
             },
-            "5": {
+            "5": {  
                 "displayName": "Sea Lantern",
                 "validVersions": {
                     "1.12.2": {
@@ -1994,7 +2092,31 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 4
+                "presetIndex": 5
+            },
+            "6": {
+                "displayName": "Pale Oak Pressure Plate",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "pale_oak_pressure_plate",
+                        "NBTArgs": {}
+                    }
+                },
+                "supportBlockMandatory": true,
+                "flammable": true,
+                "presetIndex": 6
+            },
+            "7": {
+                "displayName": "Target Block",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "target",
+                        "NBTArgs": {}
+                    }
+                },
+                "supportBlockMandatory": true,
+                "flammable": true,
+                "presetIndex": 7
             }
         },
         "mapdatId": 14,
@@ -2154,7 +2276,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "white_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -2373,7 +2497,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "orange_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -2406,7 +2532,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 15
+                "presetIndex": 6
             },
             "7": {
                 "displayName": "Acacia Log (vertical)",
@@ -2434,7 +2560,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": true,
-                "presetIndex": 6
+                "presetIndex": 7
             },
             "8": {
                 "displayName": "Acacia Planks",
@@ -2459,7 +2585,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": true,
-                "presetIndex": 7
+                "presetIndex": 8
             },
             "9": {
                 "displayName": "Acacia Slab",
@@ -2484,7 +2610,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": true,
-                "presetIndex": 8
+                "presetIndex": 9
             },
             "10": {
                 "displayName": "Red Sand",
@@ -2509,7 +2635,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 9
+                "presetIndex": 10
             },
             "11": {
                 "displayName": "Red Sandstone",
@@ -2534,7 +2660,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 10
+                "presetIndex": 11
             },
             "12": {
                 "displayName": "Red Sandstone Slab",
@@ -2582,7 +2708,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 11
+                "presetIndex": 13
             },
             "14": {
                 "displayName": "Honey Block",
@@ -2599,7 +2725,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 13
+                "presetIndex": 14
             },
             "15": {
                 "displayName": "Honeycomb Block",
@@ -2616,7 +2742,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 14
+                "presetIndex": 15
             },
             "16": {
                 "displayName": "Block Of Raw Copper",
@@ -2840,7 +2966,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "magenta_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -3053,7 +3181,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "light_blue_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -3226,7 +3356,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "yellow_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -3513,7 +3645,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "lime_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -3709,7 +3843,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "pink_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -3909,7 +4045,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "gray_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -4196,7 +4334,9 @@
                     },
                     "1.13.2": {
                         "NBTName": "light_gray_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.14.4": "&1.13.2",
                     "1.15.2": "&1.13.2",
@@ -4209,6 +4349,30 @@
                 "supportBlockMandatory": false,
                 "flammable": false,
                 "presetIndex": 5
+            },
+            "6": {
+                "displayName": "Pale Moss Block",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "pale_moss_block",
+                        "NBTArgs": {}
+                    }
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 6
+            },
+            "7": {
+                "displayName": "Pale Moss Carpet",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "pale_moss_carpet",
+                        "NBTArgs": {}
+                    }
+                },
+                "supportBlockMandatory": true,
+                "flammable": true,
+                "presetIndex": 7
             }
         },
         "mapdatId": 22,
@@ -4368,7 +4532,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "cyan_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -4580,7 +4746,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "purple_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -4788,7 +4956,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "blue_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -4961,7 +5131,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "brown_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -4977,7 +5149,7 @@
                 "presetIndex": 5
             },
             "6": {
-                "displayName": "Dark Oak Log (any direction)",
+                "displayName": "Dark Oak Log",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "log2",
@@ -5295,7 +5467,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "green_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -5327,6 +5501,42 @@
                 "supportBlockMandatory": false,
                 "flammable": true,
                 "presetIndex": 6
+            },
+            "7": {
+                "displayName": "Moss Block",
+                "validVersions": {
+                    "1.14.4": {
+                        "NBTName": "moss_block",
+                        "NBTArgs": {}
+                    },
+                    "1.15.2": "&1.14.4",
+                    "1.16.5": "&1.14.4",
+                    "1.17.1": "&1.14.4",
+                    "1.18.2": "&1.14.4",
+                    "1.19": "&1.14.4",
+                    "1.20": "&1.14.4"
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 7
+            },
+            "8": {
+                "displayName": "Moss Carpet",
+                "validVersions": {
+                    "1.14.4": {
+                        "NBTName": "moss_carpet",
+                        "NBTArgs": {}
+                    },
+                    "1.15.2": "&1.14.4",
+                    "1.16.5": "&1.14.4",
+                    "1.17.1": "&1.14.4",
+                    "1.18.2": "&1.14.4",
+                    "1.19": "&1.14.4",
+                    "1.20": "&1.14.4"
+                },
+                "supportBlockMandatory": false,
+                "flammable": true,
+                "presetIndex": 8
             }
         },
         "mapdatId": 27,
@@ -5486,7 +5696,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "red_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -5797,7 +6009,9 @@
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "black_glazed_terracotta",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.13.2": "&1.12.2",
                     "1.14.4": "&1.12.2",
@@ -5905,7 +6119,9 @@
                 "validVersions": {
                     "1.16.5": {
                         "NBTName": "basalt",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.17.1": "&1.16.5",
                     "1.18.2": "&1.16.5",
@@ -5986,6 +6202,19 @@
                 "supportBlockMandatory": false,
                 "flammable": false,
                 "presetIndex": 16
+            },
+            "17": {
+                "displayName": "Smooth Basalt",
+                "validVersions": {
+                    "1.19": {
+                        "NBTName": "smooth_basalt",
+                        "NBTArgs": {}
+                    },
+                    "1.20": "&1.19"
+                },
+                "supportBlockMandatory": false,
+                "flammable": false,
+                "presetIndex": 17
             }
         },
         "mapdatId": 29,
@@ -6036,7 +6265,7 @@
                 "presetIndex": 0
             },
             "1": {
-                "displayName": "Weighted Pressure Plate (Light)",
+                "displayName": "Light Weighted Pressure Plate",
                 "validVersions": {
                     "1.12.2": {
                         "NBTName": "light_weighted_pressure_plate",
@@ -6160,7 +6389,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 4
+                "presetIndex": 2
             },
             "3": {
                 "displayName": "Dark Prismarine",
@@ -6185,7 +6414,7 @@
                 },
                 "supportBlockMandatory": false,
                 "flammable": false,
-                "presetIndex": 2
+                "presetIndex": 3
             },
             "4": {
                 "displayName": "Dark Prismarine Slab",
@@ -6204,7 +6433,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 5
+                "presetIndex": 4
             },
             "5": {
                 "displayName": "Beacon",
@@ -6224,7 +6453,7 @@
                 },
                 "supportBlockMandatory": true,
                 "flammable": false,
-                "presetIndex": 3
+                "presetIndex": 5
             }
         },
         "mapdatId": 31,
@@ -6900,6 +7129,18 @@
                 "supportBlockMandatory": false,
                 "flammable": false,
                 "presetIndex": 0
+            },
+            "1": {
+                "displayName": "Block of Resin",
+                "validVersions": {
+                    "1.20": {
+                        "NBTName": "resin_block",
+                        "NBTArgs": {}
+                    }
+                },
+                "supportBlockMandatory": false,
+                "flammable": false,
+                "presetIndex": 1
             }
         },
         "mapdatId": 37,
@@ -7185,7 +7426,9 @@
                 "validVersions": {
                     "1.20": {
                         "NBTName": "stripped_cherry_wood",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     }
                 },
                 "supportBlockMandatory": false,
@@ -7279,7 +7522,9 @@
                 "validVersions": {
                     "1.20": {
                         "NBTName": "cherry_wood",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     }
                 },
                 "supportBlockMandatory": false,
@@ -7994,7 +8239,9 @@
                 "validVersions": {
                     "1.16.5": {
                         "NBTName": "crimson_hyphae",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.17.1": "&1.16.5",
                     "1.18.2": "&1.16.5",
@@ -8010,7 +8257,9 @@
                 "validVersions": {
                     "1.16.5": {
                         "NBTName": "stripped_crimson_hyphae",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.17.1": "&1.16.5",
                     "1.18.2": "&1.16.5",
@@ -8266,7 +8515,9 @@
                 "validVersions": {
                     "1.16.5": {
                         "NBTName": "warped_hyphae",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.17.1": "&1.16.5",
                     "1.18.2": "&1.16.5",
@@ -8282,7 +8533,9 @@
                 "validVersions": {
                     "1.16.5": {
                         "NBTName": "stripped_warped_hyphae",
-                        "NBTArgs": {}
+                        "NBTArgs": {
+                            "axis": "y"
+                        }
                     },
                     "1.17.1": "&1.16.5",
                     "1.18.2": "&1.16.5",
@@ -8514,5 +8767,66 @@
         },
         "mapdatId": 61,
         "colourName": "Glow Lichen"
+    },
+    "61": {
+        "tonesRGB":{
+            "dark": [
+                0,
+                0,
+                0
+            ],
+            "normal": [
+                0,
+                0,
+                0
+            ],
+            "light": [
+                0,
+                0,
+                0
+            ],
+            "unobtainable": [
+                0,
+                0,
+                0
+            ]
+        },
+        "blocks": {
+            "0": {
+                "displayName": "Void",
+                "validVersions": {
+                    "1.17.1": {
+                        "NBTName": "void",
+                        "NBTArgs": {
+                        }
+                    },
+                    "1.18.2": "&1.17.1",
+                    "1.19": "&1.17.1",
+                    "1.20": "&1.17.1"
+                },
+                "supportBlockMandatory": false,
+                "flammable": false,
+                "presetIndex": 0
+            },
+            "1": {
+                "displayName": "Glass block",
+                "validVersions": {
+                    "1.17.1": {
+                        "NBTName": "glass",
+                        "NBTArgs": {
+                            "down": "true"
+                        }
+                    },
+                    "1.18.2": "&1.17.1",
+                    "1.19": "&1.17.1",
+                    "1.20": "&1.17.1"
+                },
+                "supportBlockMandatory": false,
+                "flammable": false,
+                "presetIndex": 1
+            }
+        },
+        "mapdatId": 0,
+        "colourName": "None"
     }
 }

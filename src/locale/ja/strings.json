@@ -48,7 +48,8 @@
       "NONE": "なし",
       "EVERYTHING": "すべて",
       "CARPETS": "カーペット",
-      "GREYSCALE": "グレースケール"
+      "GREYSCALE": "グレースケール",
+      "INSTAMINE": "Instamine"
     },
     "UNSUPPORTED-PAST": null,
     "ADD-CUSTOM": {

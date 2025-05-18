@@ -48,7 +48,8 @@
       "NONE": "Nenhum",
       "EVERYTHING": "Tudo",
       "CARPETS": "Carpetes",
-      "GREYSCALE": "Cinzento"
+      "GREYSCALE": "Cinzento",
+      "INSTAMINE": "Instamine"
     },
     "UNSUPPORTED-PAST": "Sem suporte",
     "ADD-CUSTOM": {

@@ -140,7 +140,7 @@ class BlockSelection extends Component {
                     style={{
                       cursor: "pointer",
                       ...(selectedBlocks[colourSetId] === "-1" && {
-                        filter: "drop-shadow(0 0 4px #658968)",
+                        filter: "drop-shadow(0 0 4px rgb(241, 214, 7))",
                         backgroundColor: "#658968",
                       }),
                     }}
@@ -189,7 +189,7 @@ class BlockSelection extends Component {
                           style={{
                             cursor: "pointer",
                             ...(selectedBlocks[colourSetId] === blockId && {
-                              filter: "drop-shadow(0 0 4px #658968)",
+                              filter: "drop-shadow(0 0 4px rgb(241, 214, 7))",
                               ...(block.presetIndex !== "CUSTOM" && {
                                 backgroundColor: "#658968",
                               }),
